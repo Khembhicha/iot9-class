@@ -114,7 +114,15 @@ payload: {
 
 
 # FAULT state
-
+topic:v1cdti/app/get/6310301032/model-01/sn-01
+payload: {
+    "action"    :   "get",
+    "project"   :   "6310301032",
+    "model"     :   "model-01",
+    "serial"    :   "sn-01",
+    "name"      :   "Fault_Status_FAULT",
+    "value"     :   "FAULT"
+}
 ## TIMEOUT
 topic:v1cdti/app/get/6310301032/model-01/sn-01
 payload: {
